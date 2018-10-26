@@ -16,5 +16,5 @@ policy-doc.json
 }
 ```
 
-`aws iam create-role [--path <value>] --role-name <value> --assume-role-policy-document file://policy-document.json
+`aws iam create-role [--path <value>] --role-name <value> --assume-role-policy-document file://policy-document.json`
 `aws iam create-role --path /service-role/ --role-name dxe-slack --assume-role-policy-document file://policy-document.json`
